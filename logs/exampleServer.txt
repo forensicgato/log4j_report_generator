@@ -1,0 +1,5 @@
+-- github.com/mergebase/log4j-detector v2021.12.16 (by mergebase.com) analyzing paths (could take a while).
+-- Note: specify the '--verbose' flag to have every file examined printed to STDERR.
+C:\Example\log4j-core-2.6.1.jar contains Log4J-2.x   >= 2.0-beta9 (< 2.10.0) _VULNERABLE_ :-(
+C:\Example\log4j-core.jar contains Log4J-1.x   <= 1.2.17 _OLD_ :-|
+C:\Example\log4j-core-2.16.0.jar contains Log4J-2.x   >= 2.16.0 _SAFE_ :-)
