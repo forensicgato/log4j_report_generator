@@ -3,7 +3,7 @@ $logs = @()
 $lines = @()
 $logInfo
 $serverName
-$logs = gci($logLocation)
+$logs = gci -filter *.txt $logLocation
 
 New-Item .\log4j_report.csv -type File -force
 
